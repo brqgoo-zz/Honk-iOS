@@ -18,14 +18,14 @@ class ItemCollectionViewCell: UICollectionViewCell {
   
   override var isHighlighted: Bool {
     didSet {
-      highlightIndicator.isHidden = !isHighlighted
+      //highlightIndicator.isHidden = !isHighlighted
     }
   }
   
   override var isSelected: Bool {
     didSet {
-      highlightIndicator.isHidden = !isSelected
-      selectIndicator.isHidden = !isSelected
+      //highlightIndicator.isHidden = !isSelected
+      //selectIndicator.isHidden = !isSelected
     }
   }
   

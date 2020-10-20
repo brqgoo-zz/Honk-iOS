@@ -13,6 +13,9 @@
 		272E94EF25332CDE0014F926 /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E94EA25332CB00014F926 /* CustomLayout.swift */; };
 		272E94F025332CDE0014F926 /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272E94EC25332CB00014F926 /* ImageViewerViewController.swift */; };
 		27489D8024C1F02000413FEC /* CryptoKitty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27489D7F24C1F02000413FEC /* CryptoKitty.swift */; };
+		2766611C253F071100C20C8B /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766611B253F071100C20C8B /* InitViewController.swift */; };
+		27666120253F1BEA00C20C8B /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766611F253F1BEA00C20C8B /* NewUserViewController.swift */; };
+		27666122253F341300C20C8B /* MnemonicEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27666121253F341300C20C8B /* MnemonicEnterViewController.swift */; };
 		2766860A24C5AAC20043A19B /* NFTDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766860924C5AAC20043A19B /* NFTDetailsViewController.swift */; };
 		2766860E24C5BB0C0043A19B /* NFTInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766860C24C5BB0C0043A19B /* NFTInfoTableViewCell.swift */; };
 		2766860F24C5BB0C0043A19B /* NFTInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2766860D24C5BB0C0043A19B /* NFTInfoTableViewCell.xib */; };
@@ -20,7 +23,6 @@
 		2766861324C65F640043A19B /* ViewOnExplorerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2766861124C65F640043A19B /* ViewOnExplorerTableViewCell.xib */; };
 		277D6F0E24BF22D800C9D9E6 /* Collectible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277D6F0D24BF22D800C9D9E6 /* Collectible.swift */; };
 		27A231DE252DCBA000E1C682 /* AnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A231DD252DCBA000E1C682 /* AnalyticsViewController.swift */; };
-		27A231E0252DCD9B00E1C682 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A231DF252DCD9B00E1C682 /* InfoViewController.swift */; };
 		27B830E224BE4FF2006AC99D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B830E124BE4FF2006AC99D /* AppDelegate.swift */; };
 		27B830E424BE4FF2006AC99D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B830E324BE4FF2006AC99D /* SceneDelegate.swift */; };
 		27B830E624BE4FF2006AC99D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B830E524BE4FF2006AC99D /* ViewController.swift */; };
@@ -29,6 +31,7 @@
 		27B830EE24BE4FF3006AC99D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B830EC24BE4FF3006AC99D /* LaunchScreen.storyboard */; };
 		27B830F724BE5693006AC99D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B830F524BE5693006AC99D /* TableViewCell.swift */; };
 		27B830F824BE5693006AC99D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B830F624BE5693006AC99D /* TableViewCell.xib */; };
+		27FE9B7825370F560085634D /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FE9B7725370F560085634D /* WalletViewController.swift */; };
 		F541A768FBE34A11B77A0812 /* Pods_collectibles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DB703DFBF2AF9128C4B44D /* Pods_collectibles.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +42,9 @@
 		272E94EB25332CB00014F926 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		272E94EC25332CB00014F926 /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageViewerViewController.swift; path = Discover/ImageViewerViewController.swift; sourceTree = "<group>"; };
 		27489D7F24C1F02000413FEC /* CryptoKitty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoKitty.swift; sourceTree = "<group>"; };
+		2766611B253F071100C20C8B /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
+		2766611F253F1BEA00C20C8B /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
+		27666121253F341300C20C8B /* MnemonicEnterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicEnterViewController.swift; sourceTree = "<group>"; };
 		2766860924C5AAC20043A19B /* NFTDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTDetailsViewController.swift; sourceTree = "<group>"; };
 		2766860C24C5BB0C0043A19B /* NFTInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTInfoTableViewCell.swift; sourceTree = "<group>"; };
 		2766860D24C5BB0C0043A19B /* NFTInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NFTInfoTableViewCell.xib; sourceTree = "<group>"; };
@@ -47,7 +53,6 @@
 		277D6F0D24BF22D800C9D9E6 /* Collectible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collectible.swift; sourceTree = "<group>"; };
 		277D6F0F24BF23BB00C9D9E6 /* Collectibles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Collectibles.entitlements; sourceTree = "<group>"; };
 		27A231DD252DCBA000E1C682 /* AnalyticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewController.swift; sourceTree = "<group>"; };
-		27A231DF252DCD9B00E1C682 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		27B830DE24BE4FF2006AC99D /* Honk Honk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Honk Honk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B830E124BE4FF2006AC99D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27B830E324BE4FF2006AC99D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +63,7 @@
 		27B830EF24BE4FF3006AC99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27B830F524BE5693006AC99D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		27B830F624BE5693006AC99D /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		27FE9B7725370F560085634D /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
 		95DB703DFBF2AF9128C4B44D /* Pods_collectibles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_collectibles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED5C5B4C68DE1E428C0252A /* Pods-collectibles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-collectibles.release.xcconfig"; path = "Target Support Files/Pods-collectibles/Pods-collectibles.release.xcconfig"; sourceTree = "<group>"; };
 		D53F652F7391047AACC2A221 /* Pods-collectibles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-collectibles.debug.xcconfig"; path = "Target Support Files/Pods-collectibles/Pods-collectibles.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,16 +129,19 @@
 				277D6F0F24BF23BB00C9D9E6 /* Collectibles.entitlements */,
 				277D6F0C24BF22C900C9D9E6 /* Models */,
 				27B830E124BE4FF2006AC99D /* AppDelegate.swift */,
+				27666121253F341300C20C8B /* MnemonicEnterViewController.swift */,
+				2766611F253F1BEA00C20C8B /* NewUserViewController.swift */,
+				2766611B253F071100C20C8B /* InitViewController.swift */,
 				27B830E324BE4FF2006AC99D /* SceneDelegate.swift */,
+				27FE9B7725370F560085634D /* WalletViewController.swift */,
 				27B830E524BE4FF2006AC99D /* ViewController.swift */,
 				27A231DD252DCBA000E1C682 /* AnalyticsViewController.swift */,
 				2766860924C5AAC20043A19B /* NFTDetailsViewController.swift */,
-				27A231DF252DCD9B00E1C682 /* InfoViewController.swift */,
+				272E94E925332CB00014F926 /* DiscoverViewController.swift */,
 				27B830E724BE4FF2006AC99D /* Main.storyboard */,
 				27B830EA24BE4FF3006AC99D /* Assets.xcassets */,
 				27B830EC24BE4FF3006AC99D /* LaunchScreen.storyboard */,
 				27B830EF24BE4FF3006AC99D /* Info.plist */,
-				272E94E925332CB00014F926 /* DiscoverViewController.swift */,
 				272E94EC25332CB00014F926 /* ImageViewerViewController.swift */,
 				272E94EA25332CB00014F926 /* CustomLayout.swift */,
 				2766860B24C5BADC0043A19B /* Cells */,
@@ -277,7 +286,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				27B830E624BE4FF2006AC99D /* ViewController.swift in Sources */,
-				27A231E0252DCD9B00E1C682 /* InfoViewController.swift in Sources */,
 				27B830F724BE5693006AC99D /* TableViewCell.swift in Sources */,
 				272E94F025332CDE0014F926 /* ImageViewerViewController.swift in Sources */,
 				27489D8024C1F02000413FEC /* CryptoKitty.swift in Sources */,
@@ -289,7 +297,11 @@
 				27A231DE252DCBA000E1C682 /* AnalyticsViewController.swift in Sources */,
 				272E94ED25332CDE0014F926 /* DiscoverViewController.swift in Sources */,
 				27B830E424BE4FF2006AC99D /* SceneDelegate.swift in Sources */,
+				27FE9B7825370F560085634D /* WalletViewController.swift in Sources */,
+				27666120253F1BEA00C20C8B /* NewUserViewController.swift in Sources */,
 				2766860A24C5AAC20043A19B /* NFTDetailsViewController.swift in Sources */,
+				27666122253F341300C20C8B /* MnemonicEnterViewController.swift in Sources */,
+				2766611C253F071100C20C8B /* InitViewController.swift in Sources */,
 				272E94EE25332CDE0014F926 /* ItemCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

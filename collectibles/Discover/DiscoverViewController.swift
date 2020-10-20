@@ -77,7 +77,7 @@ class DiscoverViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    title = "NFT Store"
+    title = "Discover"
     // Do any additional setup after loading the view, typically from a nib.
     setupBarButtonItems()
     setupCollectionView()
@@ -148,25 +148,36 @@ extension DiscoverViewController: UICollectionViewDelegate, UICollectionViewData
     cell.mainTitle.text = itemsStrs[indexPath.item]
     cell.imageView.image = UIImage(named: items[indexPath.item].imageName)
     
+    
     return cell
   }
   
   func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-    switch mMode {
-    case .view:
-      collectionView.deselectItem(at: indexPath, animated: true)
-      let item = items[indexPath.item]
-      performSegue(withIdentifier: viewImageSegueIdentifier, sender: item)
-    case .select:
-      dictionarySelectedIndecPath[indexPath] = true
-    }
-  }
+
+    let impactFeedbackgenerator = UIImpactFeedbackGenerator(style: .light)
+    impactFeedbackgenerator.prepare()
+    impactFeedbackgenerator.impactOccurred()
     
-  func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
-    if mMode == .select {
-      dictionarySelectedIndecPath[indexPath] = false
-    }
+    animateCollectionViewCell(sender: collectionView.cellForItem(at: indexPath)!)
+    
   }
+
+    func animateCollectionViewCell(sender: UICollectionViewCell) {
+       
+        sender.transform = CGAffineTransform(scaleX: 0.95, y: 0.95)
+        
+        UIView.animate(withDuration: 0.5,
+                       delay: 0,
+                       usingSpringWithDamping: CGFloat(0.20),
+                       initialSpringVelocity: CGFloat(6.0),
+                       options: UIView.AnimationOptions.allowUserInteraction,
+                       animations: {
+                        sender.transform = CGAffineTransform.identity
+        },
+                       completion: { Void in()  }
+        )
+        
+    }
   
 }
 
