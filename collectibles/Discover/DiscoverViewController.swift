@@ -99,7 +99,6 @@ class DiscoverViewController: UIViewController {
   }
   
   private func setupBarButtonItems() {
-    navigationItem.rightBarButtonItem = selectBarButton
   }
 
   private func setupCollectionView() {

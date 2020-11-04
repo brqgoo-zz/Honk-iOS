@@ -14,13 +14,15 @@ class NewUserViewController: UIViewController {
     @IBOutlet weak var generateView: UIView!
     
     
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        UIView.setAnimationsEnabled(true)
+    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        UIView.setAnimationsEnabled(true)
-        
+          
         // Do any additional setup after loading the view.
         
         importView.layer.shadowColor = UIColor.black.cgColor
@@ -37,10 +39,14 @@ class NewUserViewController: UIViewController {
         
         self.importView.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector(self.importTapped)))
         self.generateView.addGestureRecognizer(UITapGestureRecognizer(target: self, action:  #selector(self.generateTapped)))
+        
+        
+        
 
     }
     
 
+    
     /*
     // MARK: - Navigation
 
@@ -51,20 +57,18 @@ class NewUserViewController: UIViewController {
     }
     */
     @objc func generateTapped(sender : UITapGestureRecognizer) {
-        // Do what you want
-        print("checkAction")
-        
+
         let impactFeedbackgenerator = UIImpactFeedbackGenerator(style: .light)
         impactFeedbackgenerator.prepare()
         impactFeedbackgenerator.impactOccurred()
         
         animateButton(sender: self.generateView)
+        
+        performSegue(withIdentifier: "generateSegue", sender: nil)
     }
     
     @objc func importTapped(sender : UITapGestureRecognizer) {
-        // Do what you want
-        print("checkAction")
-        
+
         let impactFeedbackgenerator = UIImpactFeedbackGenerator(style: .light)
         impactFeedbackgenerator.prepare()
         impactFeedbackgenerator.impactOccurred()

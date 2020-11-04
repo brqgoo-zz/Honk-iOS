@@ -7,16 +7,18 @@
 //
 
 import UIKit
-import web3swift
+
 
 class InitViewController: UIViewController {
 
 
     override func viewWillAppear(_ animated: Bool) {
+        
         super.viewWillAppear(false)
         
+        print("InitViewControllerInitViewController")
+        
         navigationController?.setNavigationBarHidden(true, animated: false)
-        UIView.setAnimationsEnabled(false)
         
         if UserDefaults.standard.object(forKey: "keyData") != nil{
             
@@ -41,8 +43,11 @@ class InitViewController: UIViewController {
             
             UserDefaults.standard.set(keyData, forKey: "keyData")
  */
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let newViewController = storyBoard.instantiateViewController(withIdentifier: "NewUserViewController") as! NewUserViewController
+            self.navigationController?.pushViewController(newViewController, animated: false)
             
-            performSegue(withIdentifier: "newUserSegue", sender: nil)
+           // performSegue(withIdentifier: "newUserSegue", sender: nil)
             
             
         }
